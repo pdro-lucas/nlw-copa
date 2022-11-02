@@ -66,6 +66,7 @@ export default function Home(props: HomeProps) {
             onChange={(e) => setPoolTitle(e.target.value)}
             placeholder="Qual o nome do seu bolão?"
             required
+            title="Informe o nome do seu bolão"
           />
           <button
             type="submit"
